@@ -35,7 +35,6 @@ nav {
     background-color: brown;
     width: 900px;
     height: 100px;
-
 }
 
 nav ul li {
@@ -43,7 +42,7 @@ nav ul li {
     display: inline-block;
 }
 
-.artist-gallery {
+.reccomended {
     max-width: 1200px;
     margin: auto;
     height: 100%;
@@ -52,20 +51,16 @@ nav ul li {
     align-content: flex-start;
     flex-wrap: wrap;
     overflow-y: auto;
-
-
 }
 
-
-.gallery-item {
+.reccomended-item {
     width: 200px;
     height: 200px;
     margin-right: 10px;
     margin-bottom: 50px;
-
 }
 
-.gallery-item img {
+.reccomended-item img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
