@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 .wrapper {
     width: 100%;
     height: 100vh;
@@ -14,7 +16,6 @@ aside {
     width: 200px;
     background-color: black;
     float: left;
-
 }
 
 .logo img {
@@ -29,6 +30,7 @@ main {
     height: calc(100% - 80px);
     background-color: lightblue;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 nav {
@@ -50,7 +52,6 @@ nav ul li {
     max-width: 1200px;
     margin: auto;
     padding-top: 100px;
-
 }
 
 .item-wrapper {
@@ -58,7 +59,6 @@ nav ul li {
     align-items: flex-start;
     align-content: flex-start;
     flex-wrap: wrap;
-
 }
 
 .container-item {
