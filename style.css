@@ -12,8 +12,15 @@
 aside {
     height: calc(100% - 80px);
     width: 200px;
-    background-color: green;
+    background-color: black;
     float: left;
+
+}
+
+.logo img {
+    height: 100px;
+    width: 200px;
+    object-fit: contain;
 }
 
 main {
@@ -21,6 +28,7 @@ main {
     width: calc(100% - 200px);
     height: calc(100% - 80px);
     background-color: lightblue;
+    overflow-y: auto;
 }
 
 nav {
@@ -38,7 +46,7 @@ nav ul li {
     display: inline-block;
 }
 
-.reccomended {
+.container {
     max-width: 1200px;
     margin: auto;
     padding-top: 100px;
@@ -50,17 +58,17 @@ nav ul li {
     align-items: flex-start;
     align-content: flex-start;
     flex-wrap: wrap;
-    overflow-y: auto;
+
 }
 
-.reccomended-item {
+.container-item {
     width: 200px;
     height: 200px;
     margin-right: 20px;
     margin-bottom: 50px;
 }
 
-.reccomended-item img {
+.container-item img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
