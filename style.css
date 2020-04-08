@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+aside {
+    height: calc(100vh - 80px);
+    width: 200px;
+    background-color: green;
+    float: left;
+}
+
+main {
+    float: right;
+    width: calc(100% - 200px);
+    height: calc(100vh - 80px);
+    background-color: lightblue;
+}
+
+footer {
+    float: left;
+    width: 1000px;
+    height: 80px;
+    background-color: red;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: brown;
+    width: 900px;
+    height: 100px;
+}
+
+nav ul li {
+    padding: 30px;
+    display: inline-block;
+}
