@@ -22,6 +22,28 @@ aside {
     width: 250px;
     float: left;
     background-color: rgb(19, 18, 0);
+    color: rgb(169, 169, 169);
+}
+
+aside ul li:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.aside-list-wrapper-top {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+.aside-list-wrapper-top ul li:hover:after {
+    position: absolute;
+    content: "";
+    background-color: green;
+    width: 5px;
+    height: 30px;
+    left: 0;
 }
 
 .logo {
@@ -32,12 +54,6 @@ aside {
     height: 100px;
     width: 200px;
     object-fit: contain;
-}
-
-.aside-list-wrapper-top {
-    padding-top: 20px;
-    padding-bottom: 50px;
-    padding-left: 20px;
 }
 
 .aside-list-wrapper-bottom {
@@ -107,6 +123,25 @@ nav {
 nav ul li {
     padding: 30px;
     display: inline-block;
+    position: relative;
+    color: rgb(169, 169, 169);
+    font-size: 16px;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    color: white;
+}
+
+nav ul li:hover:after {
+    position: absolute;
+    content: "";
+    background-color: green;
+    width: 30px;
+    height: 3px;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #recently .container p {
@@ -171,6 +206,7 @@ footer {
     width: 100%;
     height: 80px;
     background-color: rgb(40, 40, 40);
+    color: rgb(169, 169, 169);
     clear: both;
 }
 
@@ -209,7 +245,11 @@ footer {
     position: relative;
     flex-wrap: nowrap;
     flex-shrink: 1;
+    position: relative;
 }
+
+
+
 
 .elapsed {
     position: absolute;
@@ -288,6 +328,22 @@ footer {
 
     span {
         display: none;
+    }
+
+    .aside-list-wrapper-top {
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+    }
+
+    .aside-list-wrapper-top ul li:hover:after {
+        position: absolute;
+        content: "";
+        background-color: green;
+        width: 5px;
+        height: 30px;
+        left: 1;
     }
 
     .aside-list-wrapper-bottom {
@@ -393,6 +449,27 @@ footer {
     span {
         display: block;
         display: inline-block;
+    }
+
+    aside ul li:hover {
+        cursor: pointer;
+        color: white;
+    }
+
+    .aside-list-wrapper-top {
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+    }
+
+    .aside-list-wrapper-top ul li:hover:after {
+        position: absolute;
+        content: "";
+        background-color: green;
+        width: 5px;
+        height: 30px;
+        left: 0;
     }
 
     .aside-list-wrapper-bottom {
