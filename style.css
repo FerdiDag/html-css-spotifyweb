@@ -35,7 +35,9 @@ aside {
 }
 
 .aside-list-wrapper-top {
+    padding-top: 20px;
     padding-bottom: 50px;
+    padding-left: 20px;
 }
 
 .aside-list-wrapper-bottom {
@@ -45,6 +47,7 @@ aside {
     display: flex;
     flex-direction: column;
     font-size: 20px;
+    padding-left: 20px;
 }
 
 .aside-list-wrapper-bottom ul li {
@@ -66,6 +69,7 @@ aside {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 20px;
 }
 
 .aside-list-wrapper-center ul li {
@@ -293,6 +297,7 @@ footer {
         display: flex;
         flex-direction: column;
         font-size: 25px;
+        padding-left: 0;
     }
 
     .aside-list-wrapper-center {
@@ -303,7 +308,9 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-top: 20px;
         font-size: 25px;
+        padding-left: 0;
     }
 
     .fa-bars {
@@ -374,8 +381,8 @@ footer {
     }
 
     .logo img {
-        height: 150px;
-        width: 150px;
+        height: 100px;
+        width: 190px;
         object-fit: contain;
     }
 
@@ -394,6 +401,7 @@ footer {
         justify-content: flex-end;
         align-items: flex-start;
         flex-direction: column;
+        padding-left: 20px;
         font-size: 20px;
     }
 
@@ -405,6 +413,8 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        padding-top: 20px;
+        padding-left: 20px;
         font-size: 20px;
     }
 
@@ -431,6 +441,10 @@ footer {
 
     .footer-right {
         display: block;
+    }
+
+    .footer-left img {
+        margin-left: 20px;
     }
 
     .container-item img {
@@ -474,7 +488,7 @@ footer {
     }
 
     .logo img {
-        height: 250px;
+        height: 100px;
         width: 230px;
         object-fit: contain;
     }
@@ -505,6 +519,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        padding-top: 20px;
         font-size: 20px;
     }
 
@@ -528,6 +543,10 @@ footer {
     .footer-right {
         display: block;
         width: 25%;
+    }
+
+    .footer-left img {
+        margin-left: 20px;
     }
 
     .container-item img {
