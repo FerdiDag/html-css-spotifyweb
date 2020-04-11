@@ -257,13 +257,38 @@ footer i:hover {
 }
 
 .elapsed {
+    width: 100%;
+    display: flex;
+    justify-content: center;
     position: absolute;
     bottom: 0;
     transform: translateY(80%);
-    height: 3px;
-    width: 200px;
-    background: #555;
-    border-radius: 15px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: rgb(220, 220, 220);
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 5px;
+    background: rgb(169, 169, 169);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
 }
 
 .footer-center-icons {
@@ -284,7 +309,6 @@ footer i:hover {
     display: flex;
     margin-right: 15px;
     justify-content: flex-end;
-    padding-bottom: 20px;
 }
 
 .footer-right-icons i {
@@ -347,7 +371,7 @@ footer i:hover {
         background-color: green;
         width: 5px;
         height: 30px;
-        left: 1;
+        left: 0;
     }
 
     .aside-list-wrapper-bottom {
